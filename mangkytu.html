@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<p id="output"></p>
+<script>
+  /*let array = ('TayNguyenSauLang')
+  let char = prompt('nhap vao')
+  function search() {
+    count = 0;
+    for (let i = 0; i < array.length; i++) {
+      if(array[i] == char){
+        count++;
+      }
+    }
+    return count == 0 ? -1 : count;
+  }
+
+  console.log(search())*/
+</script>
+
+
+<script>
+  let mang=("TayNguyenSauLang")
+  let bien=prompt("nhap vao")
+  let count=0
+  function timkiem() {
+    for (let i = 0; i <mang.length ; i++) {
+      if(mang[i].toLowerCase()==bien.toLowerCase()){
+        count++
+       }
+      }if(count==0){
+      return -1;
+    }else{
+      return count;
+    }
+
+    }
+  console.log(timkiem())
+</script>
+</body>
+</html>
